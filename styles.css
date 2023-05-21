@@ -1,9 +1,9 @@
 /*  your css code here. If applicable */
-p::before{
+.para::before{
  content:"Before Element ";
 	color:red
 }
-p::after{
+.para::after{
 	content:" After element";
 	color:red
 }
