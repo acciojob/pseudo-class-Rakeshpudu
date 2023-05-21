@@ -1,9 +1,8 @@
 /*  your css code here. If applicable */
-.para::before{
- content:"Before Element ";
-	color:red
+.container::before{
+	content:"Before Element";
+	color:rgb(255, 0, 0);
 }
-.para::after{
-	content:" After element";
-	color:red
-}
+.container::after{
+	content:"After Element";
+	color:rgb(255, 0, 0);
